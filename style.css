@@ -1,7 +1,3 @@
-* {
-    border: 2px solid red;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -104,23 +100,22 @@ ul, .hero-text{
 }
 
 .hero-figure{
-    width: 500px;
-    max-width: 80%;
-    height: 250px;
+    width: auto;
+    height: 100%;
     padding: 0;
     margin: 0;
     background-color: grey;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 0 0 auto;
+    flex: 0 1 auto;
 }
 
 .card-container{
     display: flex;
     flex: 1 1 auto;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .card {
