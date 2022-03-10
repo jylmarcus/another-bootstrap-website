@@ -47,11 +47,16 @@ h2{
     text-align: center;
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
+
 button, .call-to-action {
     background-color: #3882f6;
 }
 
-button{
+.hero-button{
     color:#f9faf8;
     font-weight: bold;
     padding: 0.5em 1em;
@@ -67,7 +72,6 @@ button:hover {
 article {
     padding-top: 4em;
     background-color: #e5e7eb;
-    align-items: center;
 }
 
 .hero{
@@ -139,8 +143,7 @@ ul, .hero-text{
 
 .quote, .speaker{
     margin: 0px;
-    padding: 0px;
-    width: 100%;
+    padding: 0px 7.5%;
     color: #1f2937;
     flex-shrink: 1;
 }
@@ -157,5 +160,29 @@ ul, .hero-text{
 }
 
 .call-to-action{
-    max-width: 1000px;
+    margin: 4em 8em;
+    padding: 2em 7.5%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-title, .call-caption{
+    color:#f9faf8
+}
+
+.call-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.call-button {
+    padding: 0.5em 2em;
+    max-width: 100%;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 8px;
+    flex:0 0 auto;
 }
