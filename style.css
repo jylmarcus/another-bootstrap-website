@@ -1,3 +1,7 @@
+* {
+    border: 2px solid red;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -13,7 +17,7 @@ nav {
     margin-bottom: 3em;
 }
 
-header, footer, main, article{
+header, footer, article{
     padding: 1em 8em;
     padding-bottom: 4em;
     display: flex;
@@ -26,7 +30,11 @@ header, footer{
 }
 
 main{
-    align-items: center;
+    margin: 1em 8em;
+    margin: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 ul{
@@ -35,6 +43,10 @@ ul{
     padding: 0;
     display:flex;
     gap: 1em;
+}
+
+h2{
+    text-align: center;
 }
 
 button, .call-to-action {
@@ -104,13 +116,15 @@ ul, .hero-text{
 
 .card-container{
     display: flex;
-    text-align: center;
-    gap: 3em;
+    flex: 1 1 auto;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .card {
     width: 100px;
     color:#1f2937;
+    text-align: center;
 }
 
 .card figure{
@@ -129,7 +143,6 @@ ul, .hero-text{
     margin: 0px;
     padding: 0px;
     color: #1f2937;
-    max-width: 600px;
     flex-shrink: 1;
 }
 .quote {
@@ -143,4 +156,8 @@ ul, .hero-text{
     font-size: 24px;
     font-weight: bold;
     text-align: end;
+}
+
+.call-to-action{
+    max-width: 1000px;
 }
