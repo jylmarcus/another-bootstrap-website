@@ -186,3 +186,12 @@ ul, .hero-text{
     border-radius: 8px;
     flex:0 0 auto;
 }
+
+footer {
+    padding: 2em 8em;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    font-size: medium;
+}
