@@ -19,6 +19,7 @@ header, footer, main, article{
     padding-bottom: 4em;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 header, footer{
@@ -35,6 +36,7 @@ ul{
     margin: 0;
     padding: 0;
     display:flex;
+    flex-wrap: wrap;
     gap: 1em;
 }
 
@@ -99,7 +101,7 @@ ul, .hero-text{
     margin: 0;
 }
 
-.hero-figure{
+.hero-figure .hero-figure, img{
     width: auto;
     max-height: 100%;
     padding: 0;
