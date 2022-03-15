@@ -7,6 +7,10 @@ Applications: Usage of semantic HTML and Flexbox to create a modern-looking webp
 
 References are saved as odin-project.png and colors_and_stuff.png.
 
+Things that I would like to come back to later:
+Responsive design
+Design for media queries
+
 Image links:
 
 One Ring
