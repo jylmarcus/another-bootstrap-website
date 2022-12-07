@@ -5,7 +5,7 @@ The main objective of creating this website is to round out the things I have le
 
 Applications: Usage of semantic HTML and Flexbox to create a modern-looking webpage.
 
-(Click here)[https://jylmarcus.github.io/mordor-tourism-board/] for the live page.
+[Click here](https://jylmarcus.github.io/mordor-tourism-board/) for the live page.
 
 References are saved as odin-project.png and colors_and_stuff.png.
 
